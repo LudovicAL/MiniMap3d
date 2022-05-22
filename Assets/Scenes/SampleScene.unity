@@ -954,7 +954,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 33.5
+  m_fontSize: 40.25
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1475,9 +1475,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3aefeef126674244d9a15f81824ced9d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minPosition: {x: -2, y: -0.5, z: 2.5}
+  minPosition: {x: -1.5, y: -0.5, z: 2.5}
   maxPosition: {x: 0, y: -0.225, z: 2.5}
-  positionSpeed: 7.2
+  positionSpeed: 5.5
   minScale: {x: 0.03, y: 0.03, z: 0.03}
   maxScale: {x: 0.1, y: 0.1, z: 0.1}
   scaleSpeed: 0.4
