@@ -176,7 +176,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 810bf3c81c8b4754c9f08ad1e25479f6, type: 2}
+  - {fileID: 2100000, guid: 5cc3c4400549f5b40934073e5352b617, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -415,7 +415,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5d92c5bde5ab3814689c71cab70588b4, type: 2}
+  - {fileID: 2100000, guid: f2064ea372fb7c746a6edd54eb667d74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -532,8 +532,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dcb2546ffc6919b478717d2167f2bc8d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  walkSpeed: 3
-  runSpeed: 6
+  walkSpeed: 7
+  runSpeed: 14
   smoothMoveTime: 0.1
   jumpForce: 8
   gravity: 18
@@ -1156,7 +1156,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 290cecba59978e9409aa406e931fe2c6, type: 2}
+  - {fileID: 2100000, guid: 14465681f458bd14c9bcb1b22bf57205, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1476,7 +1476,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   minPosition: {x: -2, y: -0.5, z: 2.5}
-  maxPosition: {x: 0, y: -0.75, z: 2.5}
+  maxPosition: {x: 0, y: -0.225, z: 2.5}
   positionSpeed: 7.2
   minScale: {x: 0.03, y: 0.03, z: 0.03}
   maxScale: {x: 0.1, y: 0.1, z: 0.1}

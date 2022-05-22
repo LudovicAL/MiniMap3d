@@ -48,7 +48,9 @@ public class MiniMap : MonoBehaviour {
 	private void RotateMiniMap() {
 		miniPlayerTransform.localPosition = playerTransform.position;
 		miniPlayerTransform.localRotation = playerTransform.rotation;
-		miniMapVerticalTransform.localRotation = cameraTransform.localRotation;
+		Vector3 verticalRotation = new Vector3(-cameraTransform.rotation.eulerAngles.x, 0f, 0f);
+		miniMapVerticalTransform.localRotation = Quaternion.Euler(verticalRotation);
+		//miniMapVerticalTransform.localRotation = cameraTransform.localRotation;
 		Vector3 horizontalRotation = new Vector3(0f, -playerTransform.rotation.eulerAngles.y, 0f);
 		miniMapHorizontalTransform.localRotation = Quaternion.Euler(horizontalRotation);
 	}
