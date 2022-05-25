@@ -1,4 +1,4 @@
-# HolographicMiniMap
+# MiniMap3d
 This mini game serves as a demonstration for a minimap in three-dimensional space.
 
 To keep the player visible on the minimap at all times, the surfaces between his icon and the camera are not rendered
